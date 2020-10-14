@@ -84,7 +84,15 @@ window.onload = (e) => {
   function gradientShift() {
     gradient.setAttribute(
       "style",
-      `background: linear-gradient(${degree}deg, rgba(${colour1.red}, ${colour1.blue}, ${colour1.green}, ${colour1.alpha}), rgba(${colour2.red}, ${colour2.blue}, ${colour2.green}, ${colour2.alpha}))`
+      `background: linear-gradient(${degree}deg, 
+        rgba(${colour1.red}, 
+          ${colour1.blue}, 
+          ${colour1.green}, 
+          ${colour1.alpha}), 
+          rgba(${colour2.red}, 
+            ${colour2.blue}, 
+            ${colour2.green}, 
+            ${colour2.alpha}))`
     );
     degree++;
     if (degree >= 360) {
@@ -200,7 +208,7 @@ window.onload = (e) => {
     lifeLine();
     if (typeWord === wordArr[randomIndex]) {
       projectile();
-      hitSound(); //! CHANGE THE SOUND!!!!!
+      // hitSound(); //! CHANGE THE SOUND!!!!!
     }
     window.requestAnimationFrame(draw); // request animation frame mdn
   }
