@@ -60,12 +60,12 @@ window.onload = (e) => {
   const canvas = document.getElementById("test-canvas");
   const ctx = canvas.getContext("2d");
   let innerWidth = 700,
-    innerHeight = 600;
+  innerHeight = 600;
   canvas.width = innerWidth;
   canvas.height = innerHeight;
-  let playBG = document.getElementById("audioBG"); // background music
+  let playBG = document.getElementById("audioBG").play();
   playBG.volume = 0.6;
-  let hitSound = new Audio ("./audio/misc/button-3.mp3") // pew pew
+  // let hitSound = new Audio ("./audio/misc/button-3.mp3") // pew pew
 
   // TODO Add background image? = done for now
   
