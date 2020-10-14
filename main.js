@@ -208,7 +208,7 @@ window.onload = (e) => {
     lifeLine();
     if (typeWord === wordArr[randomIndex]) {
       projectile();
-      hitSound(); //! CHANGE THE SOUND!!!!!
+      hitSound(); 
     }
     window.requestAnimationFrame(draw); // request animation frame mdn
   }
