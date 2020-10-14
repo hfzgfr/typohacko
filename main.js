@@ -194,7 +194,7 @@ window.onload = (e) => {
     /* Add sound when correct here! */
 
     function hitSound() {
-      let audioHit = new Audio("/audio/8-Bit jingles/jingles_NES05.ogg");
+      let audioHit = new Audio("/audio/8-Bit jingles/jingles_NES01.ogg");
       audioHit.play();
     }
 
@@ -207,8 +207,8 @@ window.onload = (e) => {
     score();
     lifeLine();
     if (typeWord === wordArr[randomIndex]) {
+      // hitSound(); 
       projectile();
-      hitSound(); 
     }
     window.requestAnimationFrame(draw); // request animation frame mdn
   }
@@ -229,7 +229,7 @@ window.onload = (e) => {
     for (let i = lives; i > 0; i--) {
       ctx.font = "30px Arial";
       ctx.fillStyle = "red";
-      ctx.fillText("x", canvas.width - rightMargin, canvas.height - 30);
+      ctx.fillText("♥", canvas.width - rightMargin, canvas.height - 30);
       rightMargin = rightMargin + 30;
     }
   }
@@ -264,6 +264,7 @@ window.onload = (e) => {
     } else if (projHit === true) {
       fontSize = fontSize + 0.9;
       fall = fall - 0.05;
+      
 
       /* ... else keep generating words */
     } else if (y_value > canvas.height + fontSize) {
@@ -297,7 +298,7 @@ window.onload = (e) => {
   }
 
   function movingBackground() {
-    ctx.fillStyle = "#adb6c4";
+    ctx.fillStyle = "#362e6b";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
   }
 
