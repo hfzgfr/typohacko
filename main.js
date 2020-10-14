@@ -163,7 +163,7 @@ window.onload = (e) => {
       ctx.font = "60px Arial";
       ctx.fillStyle = "red";
       ctx.fillText("Game Over", position, canvas.height / 2); //
-      console.log(resetButton());
+      // console.log(resetButton());
       // resetButton();
       return;
 
