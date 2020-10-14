@@ -63,7 +63,8 @@ window.onload = (e) => {
     innerHeight = 600;
   canvas.width = innerWidth;
   canvas.height = innerHeight;
-
+  let playBG = document.getElementById("audioBG");
+  playBG.volume = 0.6;
   // TODO Add background image? = done for now
   const gradient = document.querySelector("#test-canvas");
   const interval = window.setInterval(gradientShift, 20);

@@ -19,8 +19,8 @@
   <div class="container">
     <div class="button-container">
       <button id="easy" onmousedown="bleep.play()" class="difficulty-button">Easy</button>
-      <button id="medium" onmousedown="bleep.play()" class="difficulty-button">Medium</button>
-      <button id="hard" onmousedown="bleep.play()" class="difficulty-button">Hard</button>
+      <button id="medium" class="difficulty-button">Medium</button>
+      <button id="hard" class="difficulty-button">Hard</button>
       <!-- <button id="reset" class="reset-button">Reset</button> -->
     </div>
     <canvas id="test-canvas"></canvas>
@@ -30,12 +30,15 @@
     <input type="text" id="word-input"></input>
   </div>
   </div>
+  <audio id="audioBG" autoplay loop src="./audio/Background Audio/Action Sport Rock Trailer - AShamaluevMusic.mp3"></audio>
+  <script src="./main.js"></script>
   <script>
     let bleep = new Audio();
-    bleep.src = "./audio/8-Bit jingles/jingles_NES00.ogg";
+    bleep.src = "./audio/misc/button-3.mp3";
   </script>
-  <script src="./main.js"></script>
 </body>
-<!-- width="700px" height="600px" -->
 
 </html>
+
+<!-- width="700px" height="600px" -->
+onmousedown="bleep.play()"
