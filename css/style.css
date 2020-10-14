@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #212529;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Press Start 2P';
+}
+
+
+
+/* HEADER */
+header {
+  background-color: black;
+  margin: 0 auto;
+  padding-top: 10px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Cutive';
+  /* width: 80vw; */
+  /* padding: 0 3rem 5rem 3rem; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif; */
+}
+
+h1 {
+  animation: type 1.7s steps(16);
+  padding: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid white;
+  margin: 0 auto;
+  /* border-right: hidden; */
+}
+
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+
+  100% {
+    width: 8ch;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 4px;
+  /* background: none; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.button-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#test-canvas {
+  background-color: grey;
+  border: 1rem ridge darkgray;
+  /* background-color: rgb(49, 45, 45); */
+}
+
+/* FOOTER */
+#display {
+  background-color: black;
+  padding: 70px;
+}
+
+#word-input {
+  background-color: #adb5bd;
+  padding: 10px;
+  width: 260px;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* SHHHH */
+
+/* .dark-mode {
+  background-color: black;
+  color: white;
+} */
