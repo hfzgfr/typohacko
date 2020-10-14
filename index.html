@@ -10,18 +10,21 @@
   <link rel="shortcut icon" href="./img/icon.svg">
   <title>typohacko</title>
 </head>
+
 <body>
-  <!-- <div id="gradient"></div> -->
-  <!-- <audio src=""></audio> -->
+  <audio autoplay loop id="audioBG">
+    <source src="./audio/Background Audio/Action Sport Rock Trailer - AShamaluevMusic.mp3"></source>
+  </audio> 
   <header>
     <h1>typohacko</h1>
   </header>
   <div class="container">
     <div class="button-container">
+      <!-- <button id="start-button">Start</button> -->
       <button id="easy" onmousedown="bleep.play()" class="difficulty-button">Easy</button>
-      <button id="medium" class="difficulty-button">Medium</button>
-      <button id="hard" class="difficulty-button">Hard</button>
-      <!-- <button id="reset" class="reset-button">Reset</button> -->
+      <button id="medium" onmousedown="bleep.play()" class="difficulty-button">Medium</button>
+      <button id="hard" onmousedown="bleep.play()" class="difficulty-button">Hard</button>
+      <button id="dafuq" onmousedown="bleep.play()" class="difficulty-button">DAFUQ</button>
     </div>
     <canvas id="test-canvas"></canvas>
   </div>
@@ -30,7 +33,6 @@
     <input type="text" id="word-input"></input>
   </div>
   </div>
-  <audio id="audioBG" autoplay loop src="./audio/Background Audio/Action Sport Rock Trailer - AShamaluevMusic.mp3"></audio>
   <script src="./main.js"></script>
   <script>
     let bleep = new Audio();

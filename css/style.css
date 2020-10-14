@@ -69,9 +69,9 @@ button {
   font-size: 20px; */
   border-radius: 4px;
   background: none;
-  border: 1px solid;
+  border: 2px solid;
   font: inherit;
-  color: white;
+  color: whitesmoke;
   line-height: 1;
   margin: 0.5em;
   padding: 1em 2em;
@@ -95,6 +95,11 @@ button:hover {
 #hard:hover,
 #hard:focus {
   background-color: rgba(236, 63, 63, 0.5);
+}
+
+#dafuq:hover,
+#dafuq:focus {
+  background-color: rgb(255, 0, 0);
 }
 
 .offset {

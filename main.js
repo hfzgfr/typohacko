@@ -63,9 +63,12 @@ window.onload = (e) => {
     innerHeight = 600;
   canvas.width = innerWidth;
   canvas.height = innerHeight;
-  let playBG = document.getElementById("audioBG");
+  let playBG = document.getElementById("audioBG"); // background music
   playBG.volume = 0.6;
+  let hitSound = new Audio ("./audio/misc/button-3.mp3") // pew pew
+
   // TODO Add background image? = done for now
+  
   const gradient = document.querySelector("#test-canvas");
   const interval = window.setInterval(gradientShift, 20);
 
@@ -101,14 +104,10 @@ window.onload = (e) => {
     }
   }
 
-
-
   const position = canvas.width / 2;
   const container = document.querySelector(".container");
 
   // TODO Add reset button?
-  // let resetBox = document.getElementById("reset").style.display = "none";
-  // console.log(resetBox);
 
   let difficulty = 1;
   let y_value = -50;
@@ -118,9 +117,7 @@ window.onload = (e) => {
   let points = 0;
   let lives = 3;
   let projHit = false;
-  // let rgbValue = 150;
-  // let backgroundScroll = 0;
-  // let explosion = null; //0.1 edit anyway
+
   /* Output random words section 
   using Math.random and Math.floor */
 
@@ -137,10 +134,10 @@ window.onload = (e) => {
   If there are more than one level, use loop function */
 
   document.querySelector(".button-container").addEventListener("click", (e) => {
-    if (e.target.className === "difficulty-button") {
+     if (e.target.className === "difficulty-button" && "dafuq") {
       switch (e.target.id) {
         case "easy":
-          difficulty = 1.2;
+          difficulty = 1.5;
           break;
           // TODO add more diff level later
         case "medium":
@@ -148,6 +145,9 @@ window.onload = (e) => {
           break;
         case "hard":
           difficulty = 6; // would this be difficult enough?
+          break;
+          case "dafuq":
+          difficulty = 100; // THEY DED
           break;
           // TODO maybe add extreme level 
         default:
@@ -171,34 +171,15 @@ window.onload = (e) => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.font = "60px Arial";
       ctx.fillStyle = "red";
-      ctx.fillText("Game Over", position, canvas.height / 2); //
-      // console.log(resetButton());
-      // resetButton();
+      ctx.fillText("Game Over", position, canvas.height / 2);
       return;
-
-      // function resetButton() {
-      //   document.getElementById("reset").style.display = "block";
-      //   return;
-      // }
-
     }
-
-    // function addReset() {
-    // const resetBox = document.createElement("div")
-    // const newContent = document.createTextNode("Reset");
-    //   resetBox.appendChild(newContent);
-    //   const container = document.querySelector(".container");
-    //   document.body.insertBefore(resetBox, container);
-    // }
-    // addReset();
 
     /* Add sound when correct here! */
 
-    function hitSound() {
-      let audioHit = new Audio("/audio/8-Bit jingles/jingles_NES01.ogg");
-      audioHit.play();
-    }
-
+    // function playHit(audio) {
+    //   audio.play();
+    // }
     /* user type in the word that is being display */
 
     let typeWord = wordInput.value.toLowerCase();
@@ -208,7 +189,6 @@ window.onload = (e) => {
     score();
     lifeLine();
     if (typeWord === wordArr[randomIndex]) {
-      // hitSound(); 
       projectile();
     }
     window.requestAnimationFrame(draw); // request animation frame mdn
