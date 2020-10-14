@@ -106,7 +106,7 @@ button:hover {
 
 #test-canvas {
   background-color: grey;
-  border: 1rem ridge darkgray;
+  border: 1rem ridge rgb(106, 100, 114);
   /* background-color: rgb(49, 45, 45); */
 }
 
@@ -117,13 +117,15 @@ button:hover {
 }
 
 #word-input {
-  background-color: rgba(194, 192, 223, 0.911);
+  /* background-color: rgba(194, 192, 223, 0.911); */
+  background-color: rgb(70, 69, 69);
   border-radius: 5px;
   padding: 10px;
   width: 260px;
   font-size: 35px;
   text-align: center;
-  color: rgb(110, 80, 100);
+  color: rgb(190, 151, 177);
+  /* color: rgb(110, 80, 100); */
 }
 
 /* SHHHH */
