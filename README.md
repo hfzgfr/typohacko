@@ -10,5 +10,5 @@
   </p>
 
 <p align="center">
-  <img width="600" height="600" src="https://github.com/hfzgfr/typohacko/blob/master/img/README_start.png">
+  <img width="1000" height="800" src="https://github.com/hfzgfr/typohacko/blob/master/img/README_start.png">
 </p>
