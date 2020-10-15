@@ -66,6 +66,11 @@ I've wanted to create a game that involves two game types and combine them into 
   Challenges
 </h2>
 
+<ul>
+  <li>Spent quite a bit of time of figuring out CSS and HTML to get display right.</li>
+  <li>Multiple DOM functions couldn't work</li>
+  <li>Implementing user interfaces, additional buttons</li>
+</ul>
 
 
 
