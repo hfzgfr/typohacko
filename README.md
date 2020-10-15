@@ -3,6 +3,8 @@
 </p>
 
 <p align="center">
-<strong>Are you fast enough?</strong>
-  <strong>Welcome to typohacko, a 2D, speed typing game using HTML, CSS and JavaScript.</strong>
+  <strong>Are you fast enough?</strong>
 </p>
+  <p align="center">
+    <strong>Welcome to typohacko, a 2D, speed typing game using HTML, CSS and JavaScript.</strong>
+  </p>
