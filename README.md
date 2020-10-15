@@ -26,6 +26,6 @@ I've wanted to create a game that involves two game types and combine them into 
 </strong>
 <br>
 <h2>So how does it work?</h2>
-<p>The game is simply made by <strong>HTML, CSS and JavaScript </strong><em>(as stated above)</em></p>
+<p>The game is simply made by <strong>HTML, CSS and JavaScript </strong><em>(as stated above)</em> It has a simple markup in HTML which defines almost every needs such as header, main content, links and footer. The CSS part is responsible for the layout of the game page such as graphics and user interfaces. JavaScript is for the DOM (Document Object Model), interactions, visuals and logics. Since I'm making a simple game as a start of my project, I based on what I experienced and from my knowledge to create a minimal yet direct, click and play type game.</p>
   
   
