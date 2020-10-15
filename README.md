@@ -25,6 +25,7 @@ I've wanted to create a game that involves two game types and combine them into 
   <a href="https://hfzgfr.github.io/typohacko/" target="_blank">Play it here!</a>
 </strong>
 <br>
-
+<h2>So how does it work?</h2>
+<p>The game is simply made by HTML, CSS and JavaScript<em>(as stated above)</em></p>
   
   
