@@ -38,7 +38,18 @@ I've wanted to create a game that involves two game types and combine them into 
 
 <ul>
   <li>Create a canvas from HTML</li>
-  <li>A list of arrays would be displayed inside canvas</li>
+  <li>Display inside canvas</li>
+  <li>Player input</li>
+</ul>
+
+<h3>Game Features</h3>
+
+<ul>
+  <li>Game difficulty levels</li>
+  <li>Health system implementation</li>
+  <li>Scoreboard</li>
+  <li>Added visuals</li>
+</ul>
 
 
 
