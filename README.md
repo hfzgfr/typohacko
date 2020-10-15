@@ -53,8 +53,10 @@ I've wanted to create a game that involves two game types and combine them into 
 </ul>
 
 <h2>
-  Design Planning and stuff
+  The Game Plan
 </h2>
+
+<strike>Initially I wanted to create a game whereby the user shoots out letters from a sentence. It starts with a gameplay that would display a peaceful city. Secondly, a sudden attack by an alien invasion and the user need to save the citizen from evil using sentences that would appear on the screen.</strike>
 
 
 
