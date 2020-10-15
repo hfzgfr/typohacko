@@ -24,6 +24,6 @@ I've wanted to create a game that involves two game types and combine them into 
 <strong>
   <a href="https://hfzgfr.github.io/typohacko/" target="_blank">Play it here!</a>
 </strong>
-
+<em>It's my very first game and I know it needs a lot more stuffs</em>
   
   
