@@ -54,7 +54,7 @@ const wordArr = [
 
 /* When start game, load all functions
 Make sure to start with creating a canvas, .getContext 2d - MDN
-And everything else that will be the start when load */
+And everything else that will be the start when loaded */
 
 window.onload = (e) => {
   const canvas = document.getElementById("test-canvas");
@@ -63,15 +63,10 @@ window.onload = (e) => {
   innerHeight = 600;
   canvas.width = innerWidth;
   canvas.height = innerHeight;
-  // let playBG = document.getElementById("audioBG").play();
-  // playBG.volume = 0.6;
-  // let hitSound = new Audio ("./audio/misc/button-3.mp3") // pew pew
-
-  // TODO Add background image? = done for now
   
+  /* Moving gradient background inside canvas */
   const gradient = document.querySelector("#test-canvas");
   const interval = window.setInterval(gradientShift, 20);
-
   class colourObj {
     constructor(red, green, blue, alpha) {
       this.red = red;
@@ -107,8 +102,6 @@ window.onload = (e) => {
   const position = canvas.width / 2;
   const container = document.querySelector(".container");
 
-  // TODO Add reset button?
-
   let difficulty = 1;
   let y_value = -50;
   let projPost = canvas.height + 10; // aka missile
@@ -132,24 +125,22 @@ window.onload = (e) => {
 
   /* Difficulty of levels when clicked 
   If there are more than one level, use loop function */
-
+  
   document.querySelector(".button-container").addEventListener("click", (e) => {
      if (e.target.className === "difficulty-button" && "dafuq") {
       switch (e.target.id) {
         case "easy":
-          difficulty = 3;
+          difficulty = 1.8;
           break;
-          // TODO add more diff level later
         case "medium":
-          difficulty = 4.5;
+          difficulty = 2.5;
           break;
         case "hard":
-          difficulty = 5; // would this be difficult enough?
+          difficulty = 4; // would this be difficult enough?
           break;
           case "dafuq":
           difficulty = 100; // THEY DED
           break;
-          // TODO maybe add extreme level 
         default:
       }
 
@@ -175,11 +166,6 @@ window.onload = (e) => {
       return;
     }
 
-    /* Add sound when correct here! */
-
-    // function playHit(audio) {
-    //   audio.play();
-    // }
     /* user type in the word that is being display */
 
     let typeWord = wordInput.value.toLowerCase();
@@ -191,14 +177,14 @@ window.onload = (e) => {
     if (typeWord === wordArr[randomIndex]) {
       projectile();
     }
-    window.requestAnimationFrame(draw); // request animation frame mdn
+    window.requestAnimationFrame(draw);
   }
 
   /* SCORE POINTS */
 
   function score() {
     ctx.font = "40px Helvetica";
-    ctx.fillStyle = "#FFC49B"; // change color?
+    ctx.fillStyle = "#FFC49B";
     ctx.fillText(points, 30, 40);
   }
 
@@ -215,16 +201,13 @@ window.onload = (e) => {
     }
   }
 
-  // TODO Add timer?
-
-
   /* randomize words that would "fall down" */
 
   function wordFalls() {
     ctx.font = `${fontSize}px Arial`;
     // TODO ctx.shadowOffsetX - w3sch research
-    ctx.shadowOffsetX = 2; // MDN - W3
-    ctx.shadowOffsetY = 2; // MDN - W3
+    ctx.shadowOffsetX = 2;
+    ctx.shadowOffsetY = 2;
     ctx.shadowColor = "rgb(50, 50, 50, 1)";
     ctx.fillStyle = `rgba(255, 239, 211, ${fall}`;
     ctx.fillText(wordArr[randomIndex], position, y_value);
@@ -258,7 +241,7 @@ window.onload = (e) => {
     }
     return;
   }
-  // TODO The missile - to research more
+ /* When projectile shoots... */
   function projectile() {
     ctx.fillStyle = "red";
     ctx.beginPath();
@@ -268,7 +251,7 @@ window.onload = (e) => {
     ctx.closePath();
     ctx.fill();
     projPost = projPost - 10;
-
+   
     if (projPost < y_value) {
       projHit = true;
       projPost = 500;
@@ -285,13 +268,5 @@ window.onload = (e) => {
 
 };
 
-
-
-
-
-//   function myDarkMode() {
-//   let element = document.body;
-//   element.classList.toggle("dark-mode");
-// }
 
 // "#adb6c4"
