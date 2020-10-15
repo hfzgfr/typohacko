@@ -37,9 +37,10 @@ I've wanted to create a game that involves two game types and combine them into 
 </h3>
 
 <ul>
-  <li>Create a canvas from HTML</li>
-  <li>Display inside canvas</li>
+  <li>Canvas creation</li>
+  <li>Display visuals inside canvas</li>
   <li>Player input</li>
+  <li>Random words would appear falling down</li>
 </ul>
 
 <h3>Game Features</h3>
