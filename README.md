@@ -3,5 +3,5 @@
 </p>
 
 <p align="center">
-<strong>Are you fast enough to hack?</strong>
+<strong>Are you fast enough?</strong>
 </p>
