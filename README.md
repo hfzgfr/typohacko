@@ -12,3 +12,8 @@
 <p align="center">
   <img width="1000" height="500" src="https://github.com/hfzgfr/typohacko/blob/master/img/README_start.png">
 </p>
+
+
+<h2>
+  Getting Started
+</h2>
