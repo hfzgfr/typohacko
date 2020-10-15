@@ -52,6 +52,11 @@ I've wanted to create a game that involves two game types and combine them into 
   <li>Added visuals</li>
 </ul>
 
+<h2>
+  Design Planning and stuff
+</h2>
+
+
 
 
   
