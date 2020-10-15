@@ -139,7 +139,7 @@ window.onload = (e) => {
           difficulty = 4; // would this be difficult enough?
           break;
           case "dafuq":
-          difficulty = 100; // THEY DED
+          difficulty = 6; // THEY DED
           break;
         default:
       }
