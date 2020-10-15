@@ -55,8 +55,9 @@ I've wanted to create a game that involves two game types and combine them into 
 <h2>
   The Game Plan
 </h2>
-
+<p align="center">
 <sub><sup><strike>Initially I wanted to create a game whereby the user shoots out letters from a sentence. It starts with a gameplay that would display a peaceful city. Secondly, a sudden attack by an alien invasion and the user need to save the citizen from evil using sentences that would appear on the screen.</strike></sub></sup>
+</p>
 
 <p>Turns out, I could not get my code to work even with my pseudocodes. So, I opted a bare, simple game plan that would help me achieve the requirements from this project. I applied what I had learned for the past few weeks, with a little bit of googling
 
