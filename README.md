@@ -8,3 +8,7 @@
   <p align="center">
     <strong>Welcome to typohacko, a 2D, speed typing game using HTML, CSS and JavaScript.</strong>
   </p>
+
+<p align="center">
+  <img width="600" height="600" src="https://github.com/hfzgfr/typohacko/blob/master/img/README_start.png">
+</p>
