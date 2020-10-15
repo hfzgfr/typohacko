@@ -137,14 +137,14 @@ window.onload = (e) => {
      if (e.target.className === "difficulty-button" && "dafuq") {
       switch (e.target.id) {
         case "easy":
-          difficulty = 1.5;
+          difficulty = 3;
           break;
           // TODO add more diff level later
         case "medium":
-          difficulty = 3;
+          difficulty = 4.5;
           break;
         case "hard":
-          difficulty = 6; // would this be difficult enough?
+          difficulty = 5; // would this be difficult enough?
           break;
           case "dafuq":
           difficulty = 100; // THEY DED
