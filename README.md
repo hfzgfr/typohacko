@@ -59,7 +59,12 @@ I've wanted to create a game that involves two game types and combine them into 
 <sub><sup><strike>Initially I wanted to create a game whereby the user shoots out letters from a sentence. It starts with a gameplay that would display a peaceful city. Secondly, a sudden attack by an alien invasion and the user need to save the citizen from evil using sentences that would appear on the screen. The user then type the word in and it shoots off the letters as a projectile to hit the alien spaceship above!</strike></sub></sup>
 </p>
 
-<p>Turns out, I could not get my code to work even with my pseudocodes. So, I opted a bare, simple game plan that would help me achieve the requirements from this project. I applied what I had learned for the past few weeks, to a great extent of googling, youtube and stackoverflow, I accomplished and gained knowledge from this project..</p>
+<p>Turns out, I could not get my code to work even with my pseudocodes. So, I opted a bare, simple game plan that would help me achieve the requirements from this project. I applied what I had learned for the past few weeks, to a great extent of googling, youtube and stackoverflow. I accomplished and gained knowledge from this project. Basically, the game starts with a screen where the user can choose the difficulty of the game and play. A random word would come falling down and the user needs to type the correct word in order to get points.</p>
+
+
+<h2>
+  Challenges
+</h2>
 
 
 
