@@ -72,7 +72,13 @@ I've wanted to create a game that involves two game types and combine them into 
   <li>Implementing user interfaces, additional buttons</li>
 </ul>
 
+<h2>
+  Future Improvements
+</h2>
 
-
-  
+<ul>
+  <li>Possible loading and menu screen</li>
+  <li>A functional reset button</li>
+  <li>Highscore system</li>
+</ul>
   
