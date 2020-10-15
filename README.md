@@ -36,6 +36,9 @@ I've wanted to create a game that involves two game types and combine them into 
   MVP
 </h3>
 
+<ul>
+  <li>Create a canvas from HTML</li>
+  <li>A list of arrays would be displayed inside canvas</li>
 
 
 
