@@ -26,6 +26,6 @@ I've wanted to create a game that involves two game types and combine them into 
 </strong>
 <br>
 <h2>So how does it work?</h2>
-<p>The game is simply made by HTML, CSS and JavaScript<em>(as stated above)</em></p>
+<p>The game is simply made by <strong>HTML, CSS and JavaScript </strong><em>(as stated above)</em></p>
   
   
